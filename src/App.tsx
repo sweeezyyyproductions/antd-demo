@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ConfigProvider, Button, Space, Input, Divider } from 'antd';
+import { Layout } from "antd";
+import { Rate } from 'antd';
+import TextEdit from './components/TextEdit';
+import NavBar from './components/navBar';
+import PodcastTool from './components/podcastTool';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <>
+    
+      <div>Name Generator V1
+      <PodcastTool/>
+      {/* <NavBar/> */}
+        {/* <TextEdit/> */}
+      </div>
+    
+  </>
+  
+);
+
+
+
 
 export default App;
