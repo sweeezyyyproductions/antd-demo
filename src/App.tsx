@@ -8,16 +8,12 @@ import PodcastTool from './components/podcastTool';
 
 const App: React.FC = () => (
   <>
-    
-      <div>Name Generator V1
+    <div>Name Generator V1
       <PodcastTool/>
-      {/* <NavBar/> */}
-        {/* <TextEdit/> */}
-      </div>
-    
+    </div>
   </>
-  
 );
+
 
 
 
